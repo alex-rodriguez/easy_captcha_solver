@@ -8,6 +8,6 @@ Gem::Specification.new do |s|
   s.files       = ["lib/easy_captcha_solver.rb"]
   s.add_runtime_dependency "mechanize", ["~> 2.7.3"]
   s.homepage    =
-    'http://rubygems.org/gems/easy_captcha_solver'
+    'https://github.com/alex-rodriguez/easy_captcha_solver'
   s.license       = 'MIT'
 end

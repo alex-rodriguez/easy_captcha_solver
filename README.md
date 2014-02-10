@@ -6,7 +6,7 @@ Tested with Ruby 2.0
 
 Installation
 ----------------
-add to Gemfile 
+gem install 'easy_captcha_solver'
 
 
 Requirements
@@ -19,7 +19,7 @@ Requirements
 Tesseract Gem
 ----------------
 
-If Tesseract-ocr is required in the gemspec file it always fails when installing the easy_captcha_solver gem. I don't know why, so be aware of installing tesseract-ocr gem despite of not being required.
+If Tesseract-ocr is required in the gemspec file it fails when installing easy_captcha_solver. I don't know why, so be aware of installing tesseract-ocr gem despite of not being required by gemspec.
 
 Using the gem
 ----------------
