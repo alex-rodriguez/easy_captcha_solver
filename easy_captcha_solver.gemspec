@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'easy_captcha_solver'
-  s.version     = '0.0.4'
+  s.version     = '0.0.5'
   s.date        = '2014-02-10'
   s.summary     = "Easy Captcha Solver"
   s.description = "A captcha solver (only for easy ones) gem"
