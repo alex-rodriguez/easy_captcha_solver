@@ -2,7 +2,7 @@ Easy Captcha Solver
 ----------------
 A captcha solver for really easy ones (don't expect it to solve recaptcha or any similar)
 
-Tested with Ruby 2.0
+Tested with Ruby 2.0 and jpg captchas
 
 Installation
 ----------------
@@ -28,7 +28,7 @@ Solving a captcha using an URL:
 ```ruby
 require 'easy_captcha_solver'
 
-easy_c = EasyCaptchaSolver.new(image_url: "http://www.example.net/LoadCaptcha.icm?idCaptcha=123456")
+easy_c = EasyCaptchaSolver.new(image_url: "http://www.madrid.org/i012_opina/run/j/CargarCaptchaAccion.icm?idCaptcha=&anticache=1")
 easy_c.captcha #=> "ABCDE"
 ```
 You can also use an image from your local:
