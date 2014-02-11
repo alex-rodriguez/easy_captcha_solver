@@ -23,7 +23,7 @@ If Tesseract-ocr is required in the gemspec file it fails when installing easy_c
 
 Using the gem
 ----------------
-Solving a captcha using an URL:
+Solve a captcha using an URL with image_url:
 
 ```ruby
 require 'easy_captcha_solver'
@@ -31,7 +31,7 @@ require 'easy_captcha_solver'
 easy_c = EasyCaptchaSolver.new(image_url: "http://www.example.net/LoadCaptcha.icm?idCaptcha=123456")
 easy_c.captcha #=> "ABCDE"
 ```
-You can also use an image from your local:
+You can also solve a captcha from your local using image_path:
 
 ```ruby
 require 'easy_captcha_solver'
@@ -39,3 +39,18 @@ require 'easy_captcha_solver'
 easy_c = EasyCaptchaSolver.new(image_path: "./captcha_img.jpg")
 easy_c.captcha #=> "ABCDE"
 ```
+
+Contributing
+------------
+If you'd like to contribute fork the project, make your changes and 
+then send a pull request.
+
+Contact
+-------
+Comments and feedback are welcome.
+
+License
+-------
+This code is free to use under the terms of the MIT license.
+
+
