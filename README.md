@@ -1,8 +1,8 @@
-Easy Captcha Solver
+Easy Captcha Solver Gem
 ----------------
 A captcha solver for really easy ones (don't expect it to solve recaptcha or any similar)
 
-Tested with Ruby 2.0 and jpg captchas
+Tested with Ruby 2.0
 
 Installation
 ----------------
@@ -16,10 +16,10 @@ Requirements
 * gem install 'tesseract-ocr'
 * gem install 'mechanize'
 
-Tesseract Gem
+Tesseract
 ----------------
 
-If Tesseract-ocr is required in the gemspec file it fails when installing easy_captcha_solver. I don't know why, so be aware of installing tesseract-ocr gem despite of not being required by gemspec.
+This gem uses Tesseract to read captchas, so obviously first of all you will need to install it.
 
 Using the gem
 ----------------
@@ -28,7 +28,7 @@ Solve a captcha using an URL with image_url:
 ```ruby
 require 'easy_captcha_solver'
 
-easy_c = EasyCaptchaSolver.new(image_url: "http://www.madrid.org/i012_opina/run/j/CargarCaptchaAccion.icm?idCaptcha=&anticache=1")
+easy_c = EasyCaptchaSolver.new(image_url: "http://www.madrid.org/infi_pub/html/web/CargarCaptchaAccion.icm?idCaptcha=")
 easy_c.captcha #=> "ABCDE"
 ```
 You can also solve a captcha from your local using image_path:
