@@ -2,7 +2,7 @@ Easy Captcha Solver Gem
 ----------------
 A captcha solver for really easy ones (don't expect it to solve recaptcha or any similar)
 
-Tested with Ruby 2.2
+Tested on Ruby 2.2
 
 Installation
 ----------------
