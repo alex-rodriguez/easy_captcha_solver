@@ -12,9 +12,17 @@ gem install 'easy_captcha_solver'
 Requirements
 ----------------
 
+Mac:
 * Install Tesseract #=> brew install tesseract
 * gem install 'tesseract-ocr'
 * gem install 'mechanize'
+
+Ubuntu:
+* gem install 'tesseract-ocr'
+* gem install 'mechanize'
+* export TESSDATA_PREFIX=/usr/share/tesseract-ocr
+
+If eng.traineddata is missing you can download it from Google: wget https://tesseract-ocr.googlecode.com/files/eng.traineddata.gz
 
 Tesseract
 ----------------
