@@ -22,7 +22,7 @@ Ubuntu:
 * gem install 'mechanize'
 * export TESSDATA_PREFIX=/usr/share/tesseract-ocr
 
-If eng.traineddata is missing you can download it from Google: wget https://tesseract-ocr.googlecode.com/files/eng.traineddata.gz
+If eng.traineddata is missing you can download it from : `wget https://github.com/tesseract-ocr/tessdata/raw/master/eng.traineddata`
 
 Tesseract
 ----------------
